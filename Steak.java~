@@ -1,0 +1,14 @@
+public class Steak extends Food {
+public Steak() {
+super("Steak", 0.25, 500);
+}
+
+@Override
+public int eat(Person p){
+  
+  P.setStrength(100);
+  return p.getEnergy();
+ 
+ 
+}
+}
